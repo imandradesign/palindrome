@@ -8,6 +8,21 @@
     <title></title>
   </head>
   <body>
+    <div class="container">
+      <form id="pali-form">
+        <div class="form-group">
+          <label for="userword">Please enter a word:</label>
+          <input type="text" class="form-control" id="userword">
+        </div>
+        <button type="submit" class="btn btn-danger">Click here to check if your word is a palindrome!</button>
+      </form>
 
+      <div class="results" id="pali-yes">
+        <h1><span id="word-yes"></span> is a palindrome!</h1>
+      </div>
+      <div class="results" id="pali-no">
+        <h1><span id="word-no"></span> is not a palindrome!</h1>
+      </div>
+    </div>
   </body>
 </html>
